@@ -1,6 +1,6 @@
 package searching;
 
-public class two_sum_in_aorted_array_167 {
+public class two_sum_in_sorted_array_167 {
   public int[] solution(int[] numbers, int target) {
         int l = 0;
         int r = numbers.length-1;
