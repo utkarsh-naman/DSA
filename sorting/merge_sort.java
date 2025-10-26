@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class merge_sort {
   public static void solution(int[] nums) {
     int[] temp = new int[nums.length];
-    recurse(nums, 0, nums.length-1, temp);
+    recurse(nums,0, nums.length-1, temp);
   }
 
   public static void recurse (int[] nums, int start, int end, int[] temp){
